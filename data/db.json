@@ -1,0 +1,39 @@
+{
+  "familyMembers": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "birthDate": "1960-05-15",
+      "gender": "male",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=60",
+      "parentIds": []
+    },
+    {
+      "id": "2",
+      "name": "Mary Smith",
+      "birthDate": "1962-03-20",
+      "gender": "female",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60",
+      "parentIds": []
+    },
+    {
+      "id": "3",
+      "name": "Michael Smith",
+      "birthDate": "1985-08-10",
+      "gender": "male",
+      "imageUrl": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=60",
+      "parentIds": [
+        "1",
+        "2"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "1",
+      "type": "spouse",
+      "person1Id": "1",
+      "person2Id": "2"
+    }
+  ]
+}
